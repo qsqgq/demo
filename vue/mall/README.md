@@ -194,7 +194,7 @@ src/pages/search.vue   // 实现搜索、历史搜索、热门搜索功能
 
 src/pages/product.vue   // 实现轮播商品详情
 
-![商品详情](../images/product.jpg)
+![商品详情](/images/product.jpg)
 
 ####  七、后台数据
 
