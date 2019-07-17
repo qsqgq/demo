@@ -164,31 +164,31 @@ npm start
 
 src/pages/home.vue   // 实现基本布局，幻灯片轮播，滚动条上拉刷新、图片懒加载、路由切换
 
-![首页](../images/home.jpg)
+![首页](/images/home.jpg)
 
 ####  二、分类
 
 src/pages/category.vue   // 实现滚动条下拉更多内容
 
-![分类页](../images/category.jpg)
+![分类页](/images/category.jpg)
 
 ####  三、购物车
 
 src/pages/cart.vue   // 实现单选、全选、取消，加减合计价格计算
 
-![购物车](../images/cart.jpg)
+![购物车](/images/cart.jpg)
 
 ####  四、个人
 
 src/pages/personal.vue   // 实现基本布局
 
-![个人](../images/personal.jpg)
+![个人](/images/personal.jpg)
 
 ####  五、搜索
 
 src/pages/search.vue   // 实现搜索、历史搜索、热门搜索功能
 
-![搜索](../images/search.jpg)
+![搜索](/images/search.jpg)
 
 ####  六、商品详情
 
