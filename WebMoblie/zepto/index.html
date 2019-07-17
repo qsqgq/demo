@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title>美团-首页</title>
+	<script type="text/javascript">
+		var docEl=document.documentElement;
+		function setRemUnit(){
+			var rem=docEl.clientWidth/10;  // 获取到ren的基准值
+			docEl.style.fontSize=rem+'px'; // 动态设置html元素的font-size
+		}
+		setRemUnit();
+		window.addEventListener('resize',setRemUnit); // 窗口大小变化时触发
+		window.addEventListener('pageshow',function(e){ //（浏览器兼容）窗口出现在当前屏幕时
+			if(e.persisted){
+				setRemUnit();
+			}
+		})
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+</head>
+<body>
+	<!-- 头部区域 -->
+	<div class="header">
+		<div class="header-container">
+			<div class="search-bar">
+				<i class="iconfont icon-location"></i>
+				<p class="location-text">郑州市</p>
+				<i class="iconfont icon-mjiantou-copy"></i>
+			</div>
+			<div class="search-btn">
+				<i class="iconfont icon-sousuo"></i>
+				<p class="place-holder">鸡翅</p>
+			</div>
+		</div>
+		<img src="http://xs01.meituan.net/waimai_i/img/bannertemp.e8a6fa63.jpg" class="header-img">
+	</div>
+	<!-- category区域 -->
+	<div class="category">
+		<div class="category-container"></div>
+	</div>
+	<!-- list区域 -->
+	<div class="list">
+		<div class="list-container">
+			<h4 class="list-title">
+				<span class="title-line"></span>
+				<span>附近商家</span>
+				<span class="title-line"></span>
+			</h4>
+			<div class="list-wrap"></div>
+			<div class="loading">加载中</div>
+		</div>
+	</div>
+	<!-- tabbar区域 -->
+	<div class="tabbar">
+		<div class="tabbar-container">
+		</div>
+	</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/category.js"></script>
+<script type="text/javascript" src="js/list.js"></script>
+<script type="text/javascript" src="js/tabbar.js"></script>
+</body>
+</html>

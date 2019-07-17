@@ -1,0 +1,95 @@
+/* 布局样式 */
+	.list-container{
+		width: 100%;
+		overflow: hidden;
+		padding-bottom: 1.333333rem;
+	}
+	.list-wrap{
+		padding-bottom: 1.333333rem;
+		overflow: hidden;
+	}
+/* 内容样式 */
+	.header-container{
+		width: 100%;
+		height: 1.706667rem;
+		line-height: 1.706667rem;
+	    background: #fff;
+	    text-align: center;
+	    font-size: 0.453333rem;
+	    border-bottom: 1px solid #b2b2b2;
+	    text-overflow: ellipsis;
+	}
+	.item-inner{
+		display: flex;
+		padding-bottom: 0.48rem;
+   	 	border-bottom: 1px solid #e0e0e0;
+   	 	border-top:0.346667rem solid #efefef;
+	}
+	.item-img{
+		width: 1.066667rem;
+    	height: 1.066667rem;
+    	border-radius: 50%;
+    	margin-top: 0.213333rem;
+    	margin-left: 0.426667rem;
+	}
+	.item-right{
+		margin-left: 0.4rem;
+		font-size: 0.373333rem;
+	}
+    .item-head{
+    	height: 1.466667rem;
+    	padding-top: 0.053333rem;
+    	display: flex;
+    	align-items: center;
+    	border-bottom: 1px solid #e0e0e0;
+    }
+	.item-title{
+		font-size: 0.373333rem;
+	    width: 4.8rem;
+	    height: 0.426667rem;
+	    font-weight: 600;
+	}
+	.item-state,
+	.list-container .iconfont{
+		color: #999;
+	}
+	.item-state{
+		margin-left: 1.066667rem;
+		font-size: 0.32rem;
+	}
+	.product-item{
+		font-size: 0.32rem;
+		color: #666;
+    	margin-top: 0.32rem;
+    	display: flex;
+    	justify-content: space-between;
+	}
+	.p-conunt{
+	    float: right;
+	    margin-right: 0.4rem;
+	}
+	.total-price{
+	    font-size: 0.373333rem;
+	    color: #151515;
+	    margin-left: 0.053333rem;
+	    letter-spacing: 0.026667rem;
+	}
+	.evaluation{
+		padding-top: 0.266667rem;
+    	padding-bottom: 0.266667rem;
+	}
+	.evaluation:after{
+		content: '';
+		display: block;
+		overflow: hidden;
+		clear: both;
+	}
+	.evaluation .evaluation-btn{
+		float: right;
+		margin-right: 0.266667rem;
+		width: 2.666667rem;
+    	height: 0.853333rem;
+    	color: #6b450a;
+    	background: #ffd161;
+    	border: none;
+   }

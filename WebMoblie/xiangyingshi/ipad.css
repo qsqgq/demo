@@ -1,0 +1,163 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+/* 头部样式 */
+header{
+	width: 100%;
+	background: #B2C5CC;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex: 3;
+	padding: 40px 0 111px 0;
+	flex-direction: column;
+}
+nav{
+	width: 60%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	font-size: 1rem;
+}
+nav>.headerNav{
+	color: #757575;
+}
+.subNav{
+	display: none;
+}
+ul{
+	display: none;
+}
+.headerNav.active{
+	color: #afafaf;
+}
+.pic{
+	width: 100%;
+	text-align: center;
+	flex: 2;
+	margin: 66px 0;
+}
+.pic>img{
+	width: 15%;
+}
+.pic>p{
+	color: #fff;
+	margin-top: 30px;
+	font-size: 1.5rem;
+}
+button{
+	width: 25%;
+	height: 48px;
+	background: rgb(255,255,255);
+	border: none;
+	box-shadow: 1px 1px 8px rgba(0,0,0,.5);
+	font-size: 1.2rem;
+}
+
+
+/* 主导航样式 */
+.mainNav{
+	width: 100%;
+	flex: 1;
+	border-bottom: 1px solid #dbdbdb;
+	padding: 25px 0;
+	display: flex;
+	justify-content: space-around;
+}
+.mainNav>.mainTitle{
+	color: #bababa;
+	font-size: 1rem;
+}
+.mainTitle.active{
+	color: #545454;
+}
+
+/* 介绍区域样式 */
+.introduce{
+	width: 100%;
+	flex: 2;
+	padding: 55px 0;
+}
+.introduce>p{
+	width: 460px;
+	height: 190px;
+	line-height: 26px;
+	color: #a3a3a3;
+	font-size: .8rem;
+	margin: 0 auto;
+	
+}
+.introduce>h1{
+	font-size: 1.6rem;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+
+ /* item样式 */
+.item{
+	width: 100%;
+	flex: 1;
+	display: flex;
+	padding: 17px 0;
+	background: #f4f4f4;
+	justify-content: space-between;
+}
+.item>span{
+	width: 100px;
+	color: #747474;
+	margin-left: 60px;
+	font-size: 1.2rem;
+}
+.item>p{
+	margin-right: 40px;
+	color: #747474;
+	font-size: 1rem;
+}
+.item>p>a{
+	color: #000;
+}
+
+/* main区域样式 */
+.main{
+	width: 100%;
+	background: url(../img/bg.jpg);
+	padding: 62px 0 45px 0;
+	background-clip: padding-box;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.main>h2{
+	font-size: 1.6rem;
+	padding-left: 20px;
+	width: 100%;
+}
+.main>.mainPic{
+	width: 30%;
+	margin: 15px 7px 0 8px;
+}
+.main>.mainPic>img{
+	width: 100%;
+	height: 197px;
+}
+
+/* 尾部样式 */
+footer{
+	width: 100%;
+	background: #f2f1f2;
+	text-align: center;
+	padding: 17px 0;
+	font-size: 1rem;
+}

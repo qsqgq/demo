@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+}
+/*按科室查找导航样式*/
+.departmentNav{
+	width: 100%;
+	height: 36px;
+	background: #60bff2;
+}
+.departmentNavMin{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*按科室查找concent样式*/
+.departmentConcent{
+	width: 100%;
+	height: 3169px;
+}
+.departmentConcentMin{
+	width: 1000px;
+	height: 100%;
+	margin: 20px auto;
+	position: relative;
+}
+/*按科室查找尾部样式*/
+.departmentFoot{
+	width: 100%;
+	height: 70px;
+	background: #eceef2;
+}
+.departmentFootMin{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.departmentFootMin p{
+	text-align: center;
+	line-height: 70px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #acacac;
+}
+
+/*按科室查找导航内容样式*/
+
+.departmentNavWrap .item{
+	display: block;
+	width: 100px;
+	height: 100%;
+	line-height: 36px;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-family: "宋体";
+	text-align: center;
+	margin-left: 17px;
+}
+.departmentNavWrap .right{
+	float: right;
+}
+.departmentNavWrap .itemFocus{
+	background: #1fa4f0;
+}
+/*按科室查找concent内容样式*/
+.title{
+	width: 138px;
+	height: 30px;
+	background: url(../images/bg-department.jpg) no-repeat;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-family: "宋体";
+	padding-left: 22px;
+
+}
+.ConcentWrap{
+	width: 1000px;
+	height: 70px;
+	border: 1px solid #dcdddd;
+	border-top: 2px solid #49a6d8;
+	position: relative;
+}
+.ConcentBox{
+	width: 717px;
+	height: 100%;
+}
+.ConcentBox .item{
+	display: block;
+	width: 82px;
+	height: 35px;
+	float: left;
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 35px;
+	padding-left: 31px;
+	color: #555555;
+	
+}
+.ConcentWrap .all{
+	font-size: 13px;
+	font-family: "宋体";
+	text-decoration: underline;
+	position: absolute;
+	right: 52px;
+	bottom: 18px;
+}
+.ConcentLeft{
+	width: 209px;
+	height: 986px;
+	border: 1px solid #dcdddd;
+	margin-top: 18px;
+}
+.ConcentLeft li{
+	width: 209px;
+	height: 34px;
+	position: relative;
+}
+.ConcentLeft .item{
+	display: block;
+	width: 100px;
+	color: #555555;
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 34px;
+	padding-left: 38px;
+}
+.ConcentLeft .item:before{
+	content: " ";
+	display: block;
+	width: 22px;
+	height: 21px;
+	position: absolute;
+	left: 11px;
+	top: 6px;
+	background: url(../images/icon-menu.jpg);
+}
+.ConcentLeft li:nth-child(2) .item:before{
+	background-position-y: -21px;
+}
+.ConcentLeft li:nth-child(3) .item:before{
+	background-position-y: -44px;
+}
+.ConcentLeft li:nth-child(4) .item:before{
+	background-position-y: -66px;
+}
+.ConcentLeft li:nth-child(5) .item:before{
+	background-position-y: -88px;
+}
+.ConcentLeft li:nth-child(6) .item:before{
+	background-position-y: -110px;
+}
+.ConcentLeft li:nth-child(7) .item:before{
+	background-position-y: -132px;
+}
+.ConcentLeft li:nth-child(8) .item:before{
+	background-position-y: -132px;
+}
+.ConcentLeft li:nth-child(9) .item:before{
+	background-position-y: -154px;
+}
+.ConcentLeft li:nth-child(10) .item:before{
+	background-position-y: -176px;
+}
+.ConcentLeft li:nth-child(11) .item:before{
+	background-position-y: -198px;
+}
+.ConcentLeft li:nth-child(12) .item:before{
+	background-position-y: -220px;
+}
+.ConcentLeft li:nth-child(13) .item:before{
+	background-position-y: -242px;
+}
+.ConcentLeft li:nth-child(14) .item:before{
+	background-position-y: -264px;
+}
+.ConcentLeft li:nth-child(15) .item:before{
+	background-position-y: -286px;
+}
+.ConcentLeft li:nth-child(16) .item:before{
+	background-position-y: -308px;
+}
+.ConcentLeft li:nth-child(17) .item:before{
+	background-position-y: -330px;
+}
+.ConcentLeft li:nth-child(18) .item:before{
+	background-position-y: -352px;
+}
+.ConcentLeft li:nth-child(19) .item:before{
+	background-position-y: -374px;
+}
+.ConcentLeft li:nth-child(20) .item:before{
+	background-position-y: -396px;
+}
+.ConcentLeft li:nth-child(21) .item:before{
+	background-position-y: -418px;
+}
+.ConcentLeft li:nth-child(22) .item:before{
+	background-position-y: -440px;
+}
+.ConcentLeft li:nth-child(23) .item:before{
+	background-position-y: -462px;
+}
+.ConcentLeft li:nth-child(24) .item:before{
+	background-position-y: -484px;
+}
+.ConcentLeft li:nth-child(25) .item:before{
+	background-position-y: -506px;
+}
+.ConcentLeft li:nth-child(26) .item:before{
+	background-position-y: -528px;
+}
+.ConcentLeft li:nth-child(27) .item:before{
+	background-position-y: -550px;
+}
+.ConcentLeft li:nth-child(28) .item:before{
+	background-position-y: -572px;
+}
+.ConcentLeft li:nth-child(29) .item:before{
+	background-position-y: -594px;
+}
+.ConcentLeft li span{
+	display: block;
+	width: 11px;
+	height: 12px;
+	background: url(../images/icon-arrow-right.png);
+	position: absolute;
+	top: 11px;
+	right: 11px;
+}
+.ConcentRight{
+	width: 735px;
+	height: 2985px;
+	border: 1px solid #dcdddd;
+	position: absolute;
+	top: 121px;
+	right: 0;
+	padding: 0 15px;
+}
+.rightTitle{
+	width: 711px;
+	height: 36px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #dcdddd;
+	color: #00b3ea;
+	font-size: 12px;
+	font-family: "宋体";
+	padding: 15px 0 0 24px;
+	line-height: 36px;
+}
+.rightCaption{
+	width: 735px;
+	/*height: 102px;*/
+}
+.rightCaption:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+.rightCaption li{
+	float: left;
+}
+.rightCaption .item{
+	display: block;
+	width: 100px;
+	padding: 16px 0 0 30px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #777777;
+}

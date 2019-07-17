@@ -1,0 +1,377 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	outline: none;
+}
+
+/*导航样式*/
+.departmentNav{
+	width: 100%;
+	height: 36px;
+	background: #60bff2;
+}
+.departmentNavMin{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.departmentNavWrap .item:hover{
+	color: #d7f3ff;
+}
+.departmentNavWrap .item{
+	display: block;
+	width: 100px;
+	height: 100%;
+	line-height: 36px;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-family: "宋体";
+	text-align: center;
+	margin-left: 17px;
+}
+.departmentNavWrap .right{
+	float: right;
+}
+.departmentNavWrap .itemFocus{
+	background: #1fa4f0;
+}
+
+/* 医院简介区域样式 */
+.introduce{
+	width: 100%;
+}
+.introduceMin{
+	width: 1000px;
+	margin: 30px auto;
+}
+.mainWrap{
+	width: 950px;
+	height: 226px;
+	background: #f7f7f7;
+	padding: 18px 25px;
+}
+.mainTitle{
+	width: 950px;
+	height: 35px;
+	font-size: 18px;
+	font-family: "宋体";
+	position: relative;
+}
+.note{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #f29600;
+	margin-left: 13px;
+}
+.mainStatus{
+	font-size: 12px;
+	font-family: "宋体";
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	color: #0000ff;
+}
+.mainTitle .left{
+	right: 244px;
+}
+.mainTitle .right{
+	right: 158px;
+}
+.mainStatusNote{
+	color: #000000;
+}
+.main{
+	width: 950px;
+	height: 177px;
+	border-top: 1px solid #dcdddd;
+	padding-top: 12px;
+}
+.mainPic{
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+.main .right{
+	width: 250px;
+	height: 165px;
+	float: right;
+}
+.main .right img{
+	width: 100%;
+	height: 100%;
+}
+.mainTextWrap{
+	width: 414px;
+	height: 177px;
+	float: left;
+	margin-left: 24px;
+	
+}
+.mainText{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 32px;
+	color: #888888;
+	padding-left: 36px;
+	position: relative;
+}
+.mainTextWrap .route{
+	margin-top: 4px;
+	line-height: 20px;
+}
+
+.mainTextWrap .mainText:before{
+	content: " ";
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	background: url(../images/icon-web.png);
+	position: absolute;
+	left: 6px;
+	top: 7px;
+}
+.mainTextWrap .route:before{
+	top:3px;
+}
+.mainTextWrap .mainText:nth-child(2):before{
+	background-position-y: -22px;
+}
+.mainTextWrap .mainText:nth-child(3):before{
+	background-position-y: -44px;
+}
+.mainTextWrap .mainText:nth-child(4):before{
+	background-position-y: -64px;
+}
+/* 医院体系区域样式 */
+.system{
+	width: 100%;
+}
+.systemMin{
+	width: 1000px;
+	margin: 40px auto;
+}
+.systemTab{
+	width: 100%;
+	height: 30px;
+	border-bottom: 2px solid #60bff2;
+}
+.systemTab .item{
+	display: inline-block;
+	width: 110px;
+	height: 100%;
+	text-align: center;
+	line-height: 30px;
+	color: #00b3ec;
+	
+}
+.systemTab .itemFocus{
+	display: inline-block;
+	width: 110px;
+	height: 30px;
+	background: #60bff2;
+	color: #fff;
+
+}
+.systemCaption{
+	width: 1000px;
+	height: 409px;
+	margin: 20px auto 70px auto;
+}
+.departmentWrap{
+	width: 706px;
+	height: 407px;
+	border: 1px solid #f4f6fa;
+	float: left;
+}
+.departmentTitle{
+	width: 676px;
+	height: 44px;
+	background: #f4f6fa;
+	line-height: 44px;
+	padding-left: 30px;
+	
+}
+.departmentBox{
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #f4f6fa;
+}
+.departListTitle{
+	width: 143px;
+	height: 100%;
+	background: #f2fbff;
+	color: #888888;
+	font-size: 14px;
+	font-family: "宋体";
+	font-weight: bold;
+	text-align: center;
+	line-height: 25px;
+	float: left;
+}
+.departList{
+	width: 472px;
+	height: 74px;
+	padding: 8px 20px;
+	float: left;
+}
+.departList .item{
+	display: block;
+	float: left;
+	width: 112px;
+	height: 22px;
+	font-size: 14px;
+	font-family: "宋体";
+	font-weight: bold;
+	color: #4c4948;
+	margin-bottom: 8px;
+}
+.noborder{
+	border: none;
+}
+.departmentRule{
+	width: 272px;
+	height: 282px;
+	border: 1px solid #f4f6fa;
+	float: right;
+}
+.ruleTitle{
+	width: 261px;
+	height: 40px;
+	background: #f4f6fa;
+	padding-left: 11px;
+	line-height: 40px;
+
+}
+.ruleTitle .note{
+	color: #00b3ea;
+	font-size: 13px;
+	font-family: "宋体";
+	margin-left: 7px;
+}
+.ruleConcent{
+	width: 252px;
+	height: 216px;
+	padding: 13px 10px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.ruleConcentTitle{
+	font-size: 13px;
+	font-family: "宋体";
+	color: #555555;
+	margin-bottom: 11px;
+	float: left;
+}
+.ruleItem{
+	display: inline-block;
+	width: 170px;
+	font-size: 13px;
+	font-family: "宋体";
+	color: #888888;
+	line-height: 16px;
+	margin-bottom: 11px;
+}
+.systemIntroductionText{
+	text-indent: 2em;
+	padding: 0 15px;
+	font-size: 14px;
+	line-height: 27px;
+	margin-bottom: 9px;
+}
+.systemCaption h2{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 35px;
+}
+.systemCaption .phone{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 36px 0 25px 0;
+}
+.systemCaption .website{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.systemCaption .text{
+	font-size: 12px;
+}
+.noticeOne{
+	margin: 25px 0;
+}
+.noticeTitle{
+	font-weight: bold;
+	font-size: 14px;
+}
+.noticeOne .item{
+	font-size: 12px;
+	line-height: 20px;
+}
+.systemCaption h3{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 60px;
+}
+.systemHeight{
+	height: 1000px;
+}
+.systemHeighOne{
+	height: 650px;
+}
+.systemCaption .table{
+	width: 883px;
+	height: 634px;
+	border: 1px solid #e6e7e7;
+	margin: 20px auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px;
+}
+.systemCaption td{
+	height: 26px;
+	border: 1px solid #e6e7e7;
+}
+.systemQuery{
+	width: 1000px;
+	height: 184px;
+	border-top: 1px solid #e6e7e7;
+	border-bottom: 1px solid #e6e7e7;
+	margin-top: 75px;
+	text-align: center;
+	line-height: 184px;
+}
+.systemQuery .systemText{
+	width: 176px;
+	height: 25px;
+ 	border: 1px solid #e6e7e7;
+ 	font-size: 14px;
+}
+.systemQuery .button{
+	width: 100px;
+	height: 26px;
+	background: #00b3ec;
+	color: #fff;
+	cursor: pointer;
+}
+/*尾部样式*/
+.departmentFoot{
+	width: 100%;
+	height: 70px;
+	background: #eceef2;
+}
+.departmentFootMin{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.departmentFootMin p{
+	text-align: center;
+	line-height: 70px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #acacac;
+}

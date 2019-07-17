@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<title>scheduling</title>
+	<script src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+   	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/ui.css">
+	<link rel="stylesheet" type="text/css" href="css/details.css">
+	<link rel="stylesheet" type="text/css" href="css/scheduling.css">
+</head>
+<body>
+<!-- 顶部 -->
+<div class="head">
+	<div class="headmin">
+		<p class="call">010-114/116114电话预约</p>
+		<p class="welcome">欢迎来到城市医院预约挂号统一平台&nbsp;&nbsp;请
+		</p>
+		<a href="#" class="welcomeText">登录</a>
+		<a href="#" class="welcomeText">注册</a>
+		<a href="#" class="welcomeText float">帮助中心</a>
+	</div>
+</div>
+<!-- LOGO -->
+<div class="logowarp">
+	<div class="logowarpmin">
+		<a class="logo"><img src="images/logo.png"></a>
+		<div class="search uiSearch">
+			<div class="uiSearchSelected">医院</div>
+			<div class="uiSearchSelectList">
+				<a href="#">科室</a>
+				<a href="#">疾病</a>
+				<a href="#">医院</a>
+			</div>
+			<input type="text" name="uiSearchText" class="uiSearchInput" placeholder="请输入搜索内容">
+			<a href="#" class="uiSearchSubmit">&nbsp;</a>
+		</div>
+	</div>
+</div>
+<!-- 导航 -->
+<div class="departmentNav">
+	<div class="departmentNavMin">
+		<ul class="departmentNavWrap">
+			<li><a href="Index.html" target="_blank" class="item">首页</a></li>
+			<li><a href="#" class="item">按医院挂号</a></li>
+			<li><a href="Department.html" target="_blank" class="item">按科室挂号</a></li>
+			<li><a href="#" class="item">按疾病挂号</a></li>
+			<li><a href="#" class="item">最新公告</a></li>
+			<li><a href="#" class="item right">社会知名医院</a></li>
+		</ul>
+	</div>
+	</div>
+<!-- 医院简介区域 -->
+<div class="introduce">
+	<div class="introduceMin">
+		<div class="mainWrap">
+			<div class="mainTitle">
+				北京协和医院<span class="note">关注医院</span>
+				<a href="#" class="mainStatus left">等级：<span class="mainStatusNote">三级甲等</span></a>
+				<a href="#" class="mainStatus right">区域：<span class="mainStatusNote">东城区</span></a>
+				<a href="#" class="mainStatus">分类：<span class="mainStatusNote">中国医科院所属医院</span></a>
+				</div>
+			<div class="main">
+				<div class="mainPic"><img src="images/hospital-1.jpg"></div>
+				<ul class="mainTextWrap">
+					<li class="mainText">[东院]北京东城区帅府园一号 [西院]北京市西城区大木仓胡同41号</li>
+					<li class="mainText">http://www.pumch.cn/</li>
+					<li class="mainText">东院咨询台：010-69155564；西院咨询台：010-69158010</li>
+					<li class="mainText route">东院：106,108,110,111,116,684,685到东单路口北； 41,104快，814到东单路口南； 1,52,728,802到东单路口西;20,25,37,39，到东单路口东；
+					103,104,420,803到新东安市场;地铁1、5号线到东单。西院：68到辟才胡同东口；更多乘车路线详见须知</li>
+				</ul>
+				<div class="mainPic right"><img src="images/map-1.png"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 科室排班区域 -->
+<div class="scheduling">
+	<div class="schedulingMin">
+		<div class="schedulingTitle">
+			科室排班表<a href="details.html" class="backTo">返回科室列表</a>
+		</div>
+		<div class="schedulingConcent">
+			<div class="prev">
+				<a class="prevBox" href="#1"><span class="prevArrow"></span></a>
+				<div class="prevTime">
+					<ul>
+						<li class="prevTimeList">上午</li>
+						<li class="prevTimeList">下午</li>
+						<li class="prevTimeList">晚上</li>
+					</ul>
+				</div>
+			</div>
+			<div class="scheduleBox">
+				<div class="scheduleBoxWrap">
+				</div>
+			</div>
+			<div class="next">
+				<a class="nextBox" href="#2"><span class="nextArrow"></span></a>
+				<div class="nextTime"></div>
+			</div>
+			<div class="rule">
+				<div class="ruleText">预约规则</div>
+				<ul class="ruleList">
+					<li>预约周期：</li>
+					<li class="ruleTips">7天</li>
+				</ul>
+				<ul class="ruleList">
+					<li>放号时间：</li>
+					<li class="ruleTips">8:30</li>
+				</ul>
+				<ul class="ruleListOne">
+					<li>停挂时间：</li>
+					<li class="ruleTips">下午14:00停止次日预约挂号(周五14:00后停挂至下周一)</li>
+				</ul>
+				<ul class="ruleList">
+					<li>退号时间：</li>
+					<li class="ruleTips">就诊前一工作日14:00前取消</li>
+				</ul>
+				<ul class="ruleList">
+					<li>特殊规则：</li><br>
+					<li class="ruleTips">① 取号地点不同：西院区预约号取号地点：西院区门诊楼一层大厅挂号窗口取号。东院区预约号取号地点：东院区老门诊楼一层大厅挂号窗口或新门诊楼各楼层挂号/收费窗口取号。</li><br><br><br><br><br>
+				</ul>
+			</div>
+			<div class="tipsBox">
+				<p class="tipsPic">您还没有选择就诊日期</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 尾部 -->
+	<div class="departmentFoot">
+		<div class="departmentFootMin">
+			<p>Copyright © 2017慕课网版权所有</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/scheduling.js" ></script>
+</body>
+</html>

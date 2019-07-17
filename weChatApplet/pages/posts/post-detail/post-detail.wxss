@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-img {
+  width: 100%;
+  height: 460rpx;
+}
+
+.head-wrap {
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0 0 30rpx;
+}
+
+.head-pic {
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.name {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  color: #666;
+}
+
+.date, .const-date {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.const-date {
+  margin-left: 20rpx;
+}
+
+.date {
+  margin-left: 30rpx;
+}
+
+.title {
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+  color: #4b556c;
+}
+
+.box {
+  margin-top: 20rpx;
+}
+
+.icon {
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.tips {
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 46rpx;
+  margin: 0 auto;
+  z-index: -99;
+}
+.text{
+  color: #666;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  font-size: 28rpx;
+}

@@ -1,0 +1,75 @@
+.header-container{
+	width: 100%;
+	height: 4.266667rem;
+	display: flex;
+	flex-direction: column;
+	background: url(../img/header.png);
+	background-size: cover;
+	align-items: center;
+}
+.header-container img{
+	width: 1.92rem;
+    height: 1.92rem;
+    border: 0.08rem solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin-top: 0.666667rem;
+}
+.header-name{
+	margin-top: 0.4rem;
+	font-size: 0.426667rem;
+	color: #333;
+}
+.concent-container{
+	width: 100%;
+	min-height: 13.52rem;
+	background: #eee;
+}
+.concent-item{
+	background: #fff;
+	margin-bottom: 0.266667rem;
+	padding-left: 0.693333rem;
+}
+.concent-box{
+	height: 1.2rem;
+    font-size: 0.373333rem;
+    position: relative;
+   	line-height: 1.2rem;
+}
+.concent-box:nth-child(odd){
+	border-bottom: 1px solid #e4e4e4;
+}
+.concent-container .tips,
+.concent-text{
+	font-size: 0.373333rem;
+	line-height: 1.066667rem;
+}
+.concent-text{
+	display: inline-block;
+	margin-left: 0.266667rem;
+}
+.concent-container .tips{
+	position: absolute;
+	top: 0.08rem;
+    right: 0.426667rem;
+	color: #aaa;
+}
+
+.concent-phone{
+	font-size: 0.4rem;
+    color: #ffb000;
+    text-align: center;
+    height: 1.226667rem;
+    line-height: 1.226667rem;
+    background-color: #fff;
+}
+.concent-time{
+	font-size: 0.373333rem;
+    text-align: center;
+    margin-top: 0.346667rem;
+    color: #999;
+}
+.concent-container .iconfont{
+	color: #999;
+	font-size: 0.533333rem;
+	vertical-align: -0.053333rem;
+}

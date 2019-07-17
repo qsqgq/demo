@@ -1,0 +1,458 @@
+/* nav-site顶部区域样式 */
+	.nav-site{
+		width: 100%;
+		background: #f3f5f7;
+	}
+	.nav-site .container{
+		height: 44px;
+		line-height: 44px;
+		border-bottom: 1px solid #cdd0d4;
+	}
+	.nav-site-login{
+		color: #f01414;
+		margin-left: 15px;
+
+	}
+	.nav-site-mobile,
+	.nav-site-signup{
+		margin-left: 10px;		
+	}
+	.nav-site-category{
+		margin: 0 10px;
+	}
+	.nav-site-service{
+		margin-right: 15px;
+	}
+
+	/* 下拉菜单样式 */
+		.menu{
+			z-index: 3;
+		}
+		.menu .dropdown-toggle{
+			display: block;
+			height: 100%;
+			padding: 0 13px 0 12px;
+			border-left: 1px solid #f3f5f7;
+			border-right: 1px solid #f3f5f7;
+		}
+		.menu .dropdown-arrow{
+			margin-left: 5px;
+		}
+		.menu .dropdown-layer{
+			top: 43px;
+			background: #fff;
+			border: 1px solid #cdd0d4;
+		}
+		.menu-item{
+			display: block;
+			height: 30px;
+			line-height: 30px;
+			color: #4d555d;
+			white-space: nowrap;
+			padding: 0 12px;
+		}
+		.menu-item:hover{
+			background: #f3f5f7;
+		}
+		.menu-active .dropdown-toggle{
+			background: #fff;
+			border-color: #cdd0d4;
+		}
+
+/* header头部区域样式 */
+	.header{
+		width: 100%;
+		height: 124px;
+		background: #f3f5f7;
+	}
+	.header-logo{
+		display: block;
+		width: 132px;
+		height: 48px;
+		margin-left: 15px;
+	}
+	.header-logo img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.header-logo,
+	.header .search,
+	.header .cart{
+		margin-top: 36px;
+	}
+	.header .search{
+		margin-left: 145px;
+	}
+	.header .cart{
+		margin-right: 15px;
+	}
+
+/* nav-main主导航样式 */
+	.nav-main{
+		width: 100%;
+		height: 48px;
+		background: #ca003f;
+		margin-bottom: 8px;
+	}
+	.nav-main .mainBox{
+		margin-left: 212px; 
+	}
+	.nav-main .link{
+		display: inline-block;
+		width: 110px;
+		height: 48px;
+		color: #fff;
+		font-size: 14px;
+		line-height: 48px;
+		text-align: center;
+	}
+	.nav-main .link:hover{
+		background: #000;
+	}
+
+/*下拉菜单样式dropdown*/
+	.dropdown{
+	    position: relative;
+	}
+	.dropdown-toggle{
+		position: relative;
+		z-index: 2;
+		display:block;
+		height: 100%;
+		padding: 0 16px 0 12px;
+		/*border-left: 1px solid #f3f5f7;
+		border-right: 1px solid #f3f5f7;*/
+	}
+	.dropdown-arrow{
+		display: inline-block;
+		margin-left:8px;
+		vertical-align: middle;
+	}
+	.dropdown-layer{
+	    display:none;
+	    position: absolute;
+	    top:43px;
+	    background-color:#fff;
+	    z-index: 1;
+	    border: 1px solid #cdd0d4;
+	}
+	.dropdown-left{
+		left:0;
+		right:auto;
+	}
+	.dropdown-right{
+		right:0;
+		left:auto;
+	}
+	.dropdown-item{
+		display:block;
+		height:30px;
+		line-height:30px;
+		padding:0 12px;
+		color:#4d555d;
+		white-space: nowrap;
+	}
+	.dropdown-item:hover{
+		background-color: #f3f5f7;
+	}
+
+/* focus焦点区域样式 */	
+	.focus{
+		width: 100%;
+		height: 504px;
+		background: #fff;
+		margin-bottom: 8px;
+	}
+	.focus-sidebar{
+		width: 249px;
+	}
+	.focus-news{
+		padding: 7px 20px 12px;
+		background: #fff;
+		border: 1px solid #d9dde1;
+		border-bottom: none;
+	}
+	.focus-news-head{
+		height: 38px;
+		line-height: 38px;
+	}
+	.focus-news-title{
+		color: #f01414;
+		font-size: 16px;
+	}
+	.focus-news-body{
+		line-height: 28px;
+	}
+	.focus-service{
+		background: #fff;
+		border-left: 1px solid #d9dde1;
+	}
+	.focus-service-item{
+		width: 61px;
+		height: 71px;
+		border-top: 1px solid #d9dde1;
+		border-right: 1px solid #d9dde1;
+		text-align: center;
+	}
+	.focus-service-text,
+	.focus-service-icon{
+		display: inline-block;
+		width: 100%;
+	}
+	.focus-service-icon{
+		margin-top: 17px;
+		color: #f67272;
+		font-size: 22px;
+	}
+	.focus-service-text{
+		margin-top: 6px;
+		color: #4d555d;
+	}
+	.focus-ad{
+		width: 100%;
+		height: 90px;
+		background: url(../img/focus-ad.png) no-repeat;
+	}
+	.focus .slider{
+		margin-left: 8px;
+	}
+
+/* todays今日推荐样式 */
+	.todays .slider{
+		position: relative;
+		z-index: 1;
+		width: 1200px;
+		height: 158px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.todays .slider-img{
+		width: 240px;
+	}
+
+/* floor商品楼层样式 */
+	.floor{
+		height: 100%;
+		margin-bottom: 10px;
+	}
+	.floor .container{
+		position: relative;
+		z-index: 1;
+	}
+	.floor-head{
+		height: 68px;
+		border-bottom: 1px solid #f01414;
+	}
+	.floor-title{
+		margin-top: 22px;
+	}
+	.floor-title-num{
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+		border-radius: 50%;
+		background: #07111b;
+		margin-right: 12px;
+		color: #fff;
+		text-align: center;
+	}
+	.floor-title-text{
+		position: relative;
+		top: 3px;
+		color: #07111b;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.floor-body{
+		height: 100%;
+	}
+	.tab-panel:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+	.floor-item{
+		width: 200px;
+		height: 272px;
+		text-align: center;
+	}
+	.floor-item:hover{
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	}
+	.floor-item-pic{
+		margin-top: 24px;
+	}
+	.floor-img{
+		width: 114px;
+		height: 114px;
+	}
+	.floor-item-name{
+		margin-top: 24px;
+	}
+	.floor-item-name .link{
+		display: inline-block;
+		color: #07111b;
+		width: 180px;
+		line-height: 19px;
+		text-align: left;
+	}
+	.floor-item-price{
+		margin-top: 11px;
+		color: #f01414;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.floor-head .tab-item-wrap{
+		height: 62px;
+		line-height: 62px;
+		margin-top: 7px;
+	}
+	.floor-head .tab-item{
+		display: inline-block;
+		margin-right: 16px;
+		color: #93999f;
+		font-size: 14px;
+	}
+	.floor-head .tab-item-active{
+		background: url(../img/floor-arrow.png) no-repeat center bottom;
+		color: #f01414;
+	}
+	.floor-divider{
+		width: 1px;
+		height: 14px;
+		background: #d9dde1;
+		margin: 22px 16px 0 0;
+	}
+	.floor-head .tab-panel{
+		height: 100%;
+	}
+
+/* elevator电梯样式 */
+	.elevator{
+		display: none;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-top: -90px;
+		margin-left: -640px;
+	}
+	.elevator-item{
+		display: block;
+		width: 24px;
+		height: 35px;
+		line-height: 35px;
+		border-top: 1px solid #d9dde1;
+		color: #4d555d;
+		text-align: center;
+	}
+	.elevator-item:hover,
+	.elevator-active{
+		color: #f01414;
+	}
+	.elevator-text{
+		display: none;
+	}
+	.elevator-item:hover .elevator-num,
+	.elevator-active .elevator-num{
+		display: none;
+	}
+	.elevator-item:hover .elevator-text,
+	.elevator-active .elevator-text{
+		display: block;
+	}
+
+/* nav-bottom底部站点导航样式 */
+	.nav-bottom .container{
+		border-top: 1px solid #d9dde1;
+		height: 138px;
+		z-index: 1;
+		position: relative;
+		text-align: center;
+	}
+	.nav-bottom .box{
+		text-align: left;
+		width: 277px;
+		padding: 27px 0 0 23px;
+	}
+	.nav-bottom .box .title{
+		height: 34px;
+		line-height: 34px;
+		font-size: 16px;
+		color: #07111b;
+	}
+	.nav-bottom-item{
+		line-height: 24px;
+	}
+	.nav-bottom-item .link{
+		display: inline-block;
+		color: #93999f;
+		margin-right: 23px;
+	}
+
+/* footer底部区域样式 */
+	.footer{
+		width: 100%;
+		background: #f3f5f7;
+	}
+	.footer .container{
+		padding: 33px 0;
+		text-align: center;
+	}
+	.footer-nav{
+		width: 720px;
+		margin: 0 auto;
+	}
+	.footer-nav .left{
+		margin-right: 16px;
+		color: #787d82;
+	}
+	.footer-nav .left:hover{
+		color: #07111b;
+	}
+	.rights{
+		text-align: center;
+		margin-top: 13px;
+		color: #787d82;
+	}
+
+/* toolbar侧边工具栏样式 */
+	.toolbar{
+		position: fixed;
+		z-index: 2;
+		top: 50%;
+		right: 0;
+		margin-top: -102px;
+	}
+	.toolbar .item{
+		position: relative;
+		display: block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		margin-bottom: 1px;
+		color: #fff;
+		text-align: center;
+	}
+	.toolbar-icon{
+		position: relative;
+		z-index: 2;
+		display: block;
+		background: #b7bbbf;
+		font-size: 30px;
+	}
+	.toolbar-text{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 62px;
+		height: 40px;
+	}
+	.toolbar .item:hover .toolbar-icon{
+		background: #71777d;
+	}
+	.toolbar .item:hover .toolbar-text{
+		left: -62px;
+		background: #71777d;
+	}

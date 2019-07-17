@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+}
+
+/*顶部内容样式*/
+.call{
+	width: 183px;
+	height: 100%;
+	font-size: 12px;
+	background: url(../images/icon-call.png) no-repeat left center;
+	float: left;
+	line-height: 30px;
+	color: #868686;
+	padding-left: 20px;
+	font-family: "宋体";
+}
+.welcome{
+	width: 419px;
+	height: 100%;
+	float: right;
+	font-size: 12px;
+	line-height: 30px;
+	color: #868686;
+	font-family: "宋体";
+}
+.welcome a{
+	color: #2da5e1;
+	text-decoration: none;
+}
+/*logo内容样式*/
+.logo{
+	display: inline-block;
+	width: 402px;
+	height: 74px;
+	padding: 9px 0;
+	
+
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.search{
+	width: 326px;
+	height: 38px;
+	/*background: #fec009;*/
+	position: absolute;
+	right: 0;
+	top: 29px;
+	
+}
+/*导航内容样式*/
+.navmin ul{
+	padding-left: 220px;
+}
+.navmin li{
+	float: left;
+	width: 100px;
+	line-height: 36px;
+	margin-left: 10px;
+}
+.navmin li a{
+	color: #fff;
+}
+.navmin li a:hover{
+	color: #d7f3ff;
+}
+/*banner内容样式*/
+.MenuName{
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+}
+.bannerHelp .caption,
+.bannerSearch .caption{
+	height: 22px;
+	padding:15px 0 15px 0;
+	text-align: center;
+	
+}
+.bannerHelp .quick,
+.bannerSearch .quick{
+	background: url(../images/icon-help.png) no-repeat 0 0;
+	padding-left: 28px;
+	color: #fec009;
+
+}
+.bannerSearch .form{
+	height: 150px;
+}
+.bannerSearch .line{
+	padding-bottom: 9px;
+	text-align: center;
+}
+.bannerSearch .line select{
+	width: 170px;
+	font-size: 12px;
+	border:1px solid #dcdddd;
+	height: 26px;
+	padding: 2px 0 ;
+	color: #666;
+}
+.bannerSearch .submit{
+	height: 32px;
+	text-align: center;
+}
+.bannerSearch .submit .button{
+	width: 108px;
+	height: 33px;
+	background: #fecd09;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+}
+.bannerHelp .quick{
+	color: #4eb3ea;
+	background-position: 0 -24px;
+}
+.bannerHelp .link{
+	color: #00b3ea;
+	display: inline-block;
+	width: 86px;
+	height: 26px;
+	font-size: 14px;
+	text-align: center;
+	padding: 0 0 8px 26px;
+}
+
+/*concent内容样式*/
+.concentClose .newsTitle,
+.concentNews .newsTitle{
+	height: 38px;
+	line-height: 38px;
+	background-color: #f4f6fa;
+	text-indent: 20px;
+	color: #fec009;
+	font-size: 15px;
+}
+.concentClose .newsTitle a,
+.concentNews .newsTitle a{
+	display: block;
+	float: right;
+	font-size: 12px;
+	color: #868686;
+	padding-right: 20px;
+}
+.concentClose .list,
+.concentNews .list{
+	padding: 15px 20px 13px 35px;
+	font-size: 12px;
+	background: url(../images/list-yellow.jpg) 17px 20px no-repeat;
+	line-height: 29px;
+	
+}
+.concentClose .list a,
+.concentNews .list a{
+	color: #969696;
+}
+.concentClose .newsTitle{
+	color: #4ab4ed;
+}
+.concentClose .list{
+	background: url(../images/list-blue.jpg) 17px 20px no-repeat;
+}
+.concentMain .MainTitle{
+	height: 34px;
+	line-height: 34px;
+	background-color: #f5f6fa;
+}
+.concentMain .MainTitle .item{
+	display: block;
+	width: 112px;
+	height: 34px;
+	text-align: center;
+	float: left;
+	color: #00b3ea;
+}
+.concentMain .MainTitle .itemFocus{
+	background: #60bff2;
+	color: #fff;
+}
+.concentMain .block{
+	height: 452px;
+}
+.concentMain .blockCaption{
+	height: 26px;
+	line-height: 26px;
+	padding: 8px;
+	border-bottom: 1px solid #f4f6fa;
+
+}
+.concentMain .blockCaption .blockCaptionItem{
+	display: block;
+	padding: 0 10px 0 10px;
+	font-size: 12px;
+	color: #4c4948;
+	float: left;
+}
+.concentMain .blockCaption .blockCaptionitemFocus{
+	background-color: #60bff2;
+	color: #fff;
+}
+.blockConcent{
+	height: 409px;
+	padding: 16px 0 27px 12px;
+}
+.blockConcentBox{
+	display: inline-block;
+	width: 216px;
+	height: 102px;
+	padding: 0 20px 10px 120px;
+	position: relative;
+	font-size: 12px;
+
+}
+.blockConcentBox img{
+	width: 110px;
+	height: 98px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.blockConcentBox .concentName{
+	font-size: 14px;
+	line-height: 21px;
+	width: 100%;
+	display: inline-block;
+	padding-top: 13px;
+	position: relative;
+}
+.blockConcentBox .concentName a{
+	color: #036eb7;
+}
+.blockConcentBox .concentName .concentLevel{
+	position: absolute;
+	right: 0;
+	top: 13px;
+	font-size: 12px;
+	color: #979797;
+}
+.blockConcentBox .concentPhone,
+.blockConcentBox .concentAddress{
+	line-height: 18px;
+	padding-bottom: 4px;
+	color: #666666;
+}
+.blockTextList:after{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+.blockTextList .item{
+	display: block;
+	width: 351px;
+	height: 27px;
+	font-size: 14px;
+	color: #666;
+	padding-top: 8px;
+	float: left;
+	border-bottom: 1px dashed #dcdddd;
+}
+.blockTextList .item:nth-child(2n){
+	margin-left: 13px;
+}
+.blockMore{
+	display: block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: #5084c4;
+	font-size: 14px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+/*尾部内容样式*/
+.Copyright{
+	text-align: center;
+	line-height: 120px;
+}
+.clean{
+	clear: both;
+}
+
+

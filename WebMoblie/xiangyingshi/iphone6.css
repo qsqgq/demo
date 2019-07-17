@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@media screen and (max-width: 375px){
+	/* 头部样式 */
+	header{
+		padding: 0 0 122px 0;
+		
+	}
+	nav{
+		display: none;
+	}
+	.subNav{
+		display: block;
+		width: 100%;
+		height: 35px;
+		background: #7EA6B1;
+		text-align: center;
+		color: #fff;
+		font-size: .8rem;
+		position: relative;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		line-height: 35px;
+	}
+	.subNav>span{
+		width: 10px;
+		height: 10px;
+		display: inline-block;
+		border: 1px solid rgba(255,255,255,.5);
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		margin-top: -5px;
+	}
+	ul{
+		width: 100%;
+		position: absolute;
+		top: 35px;
+		left: 0;
+		display: none;
+	}
+	ul>li{
+		width: 100%;
+		height: 24px;
+		background: #7EA6B1;
+		border-bottom: 1px solid rgba(255,255,255,.2);
+		text-align: center;
+		color: #fff;
+		font-size: .8rem;
+		line-height: 24px;
+		box-sizing: border-box;
+
+	}
+	
+	.first{
+		border-top: 1px solid rgba(255,255,255,.2);
+		
+	}
+	.pic{
+		margin: 26px 0;
+	}
+	.pic>p{
+		margin-top: 10px;
+		font-size: 1.2rem;
+	}
+	button{
+		width: 25%;
+		height: 38px;
+		font-size: 1.2rem;
+		box-shadow: none;
+	}
+
+	/* 主导航样式 */
+	.mainNav{
+		padding: 18px 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	.mainNav>.mainTitle{
+		font-size: .4rem;
+	}
+	
+	/* 介绍区域样式 */
+	.introduce{
+		padding: 55px 0;
+	}
+	.introduce>p{
+		width: 55%;
+		height: 160px;
+		line-height: 14px;
+		font-size: .6rem;
+		margin: 0 auto;
+	}
+	.introduce>h1{
+		font-size: 1rem;
+		margin-bottom: 15px;
+	}
+	 /* item样式 */
+	.item{
+		padding: 7px 0;
+		flex-direction: column;
+		align-items: center;
+	}
+	.item>span{
+		width: 100px;
+		margin-left: 0;
+		font-size: 1rem;
+		text-align: center;
+	}
+	.item>p{
+		margin-right: 0;
+		font-size: .8rem;
+		margin-top: 4px;
+	}
+	/* main区域样式 */
+	.main{
+		padding: 40px 0;
+		justify-content: center;
+	}
+	.main>h2{
+		font-size: 1rem;
+		padding-left: 20px;
+		width: 100%;
+	}
+	.main>.mainPic{
+		width: 40%;
+		margin: 10px 7px 0 8px;
+	}
+	.main>.mainPic>img{
+		width: 100%;
+		height: 150px;
+	}
+
+	/* 尾部样式 */
+	footer{
+		padding: 10px 0;
+		font-size: .8rem;
+	}
+	
+}

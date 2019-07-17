@@ -1,0 +1,51 @@
+/* list样式 */
+.post-container{
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  padding-bottom: 10rpx;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: column;
+}
+.post-date{
+  display: flex;
+  font-size: 26rpx;
+  align-items: center;
+  margin: 10rpx 0 20rpx 10rpx;
+}
+.post-pic{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.post-title{
+  font-size: 34rpx;
+  font-weight: 600;
+  margin: 0 0 10rpx 10rpx;
+  color: #333;
+}
+.post-image{
+  width: 100%;
+  height: 340rpx;
+  margin-bottom: 15px;
+}
+.post-text{
+  font-size: 28rpx;
+  color: #666;
+  margin: 0 0 20rpx 20rpx;
+}
+.post-like{
+  display: flex;
+  margin-left: 20rpx;
+  align-items: center;
+}
+.post-like-image{
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 16rpx;
+}
+.post-like-num{
+  font-size: 26rpx;
+  margin-right: 40rpx;
+}
